@@ -1,6 +1,6 @@
 # Flarum PWA
 
-> Progressive web APP Flarum Forum
+> Progressive Web App for Flarum Forum
 
 Core Concept & Inspired from - <https://github.com/zerosonesfun/pwa>
 
