@@ -1,0 +1,34 @@
+{
+    "name": "mskian/pwa",
+    "description": "A Progressive Web App Flarum extension.",
+    "keywords": [
+        "flarum",
+        "PWA"
+    ],
+    "authors": [
+        {
+            "name": "Santhosh Veer",
+            "email": "me@santhoshveer.com",
+            "homepage": "https://santhoshveer.com",
+            "role": "Creator"
+        }
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": ">=0.1.0-beta.8 <0.1.0-beta.12"
+    },
+    "autoload": {
+        "psr-4": {"mskian\\pwa\\": "src/"}
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "PWA",
+            "icon": {
+                "name": "fas fa-mobile",
+                "backgroundColor": "#ddd",
+                "color": "#000"
+            }
+        }
+    }
+}
