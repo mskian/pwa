@@ -3,7 +3,7 @@
 /*
  * This file is part of mskian/pwa
  *
- * Copyright (c) 2019 Santhosh Veer.
+ * Copyright (c) 2019 santhoshveer.com.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -28,6 +28,7 @@ return [
             <link rel="apple-touch-icon" sizes="192x192" href="/assets/extensions/mskian-pwa/Icon-192.png">
             <link rel="apple-touch-icon" sizes="256x256" href="/assets/extensions/mskian-pwa/Icon-256.png">
             <link rel="apple-touch-icon" sizes="512x512" href="/assets/extensions/mskian-pwa/Icon-512.png">
+            <link rel="manifest" href="/site.webmanifest">
             ';
         })
         ->content(function (Document $document) {
