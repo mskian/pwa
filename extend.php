@@ -16,11 +16,25 @@ return [
     (new Extend\Frontend('forum'))
         ->content(function (Document $document) {
             $document->head[] = '
+            <meta name="robots" content="index, follow">
+            <meta property="og:image" content="https://forum.santhoshveer.com/assets/site-image-6awm3gzz.png">
             <meta name="mobile-web-app-capable" content="yes">
             <meta name="application-name" content="San Forum">
             <meta name="apple-mobile-web-app-capable" content="yes">
             <meta name="apple-mobile-web-app-status-bar-style" content="white-translucent">
             <meta name="apple-mobile-web-app-title" content="San Forum">
+            <script type="application/ld+json">
+            {
+              "@context": "http:\/\/schema.org",
+              "@type": "WebSite",
+              "url": "https:\/\/forum.santhoshveer.com\/",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https:\/\/forum.santhoshveer.com\/?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
+            }
+            </script>
             <link rel="apple-touch-icon" href="/assets/extensions/mskian-pwa/Icon-48.png">
             <link rel="apple-touch-icon" sizes="72x72" href="/assets/extensions/mskian-pwa/Icon-72.png">
             <link rel="apple-touch-icon" sizes="96x96" href="/assets/extensions/mskian-pwa/Icon-96.png">
